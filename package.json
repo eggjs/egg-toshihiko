@@ -1,0 +1,47 @@
+{
+  "name": "egg-toshihiko",
+  "version": "1.0.0",
+  "description": "Yet another ORM called Toshihiko plugin for egg.",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "egg-bin test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eggjs/egg-toshihiko.git"
+  },
+  "keywords": [
+    "egg",
+    "toshihiko",
+    "egg-plugin",
+    "eggPlugin",
+    "orm"
+  ],
+  "author": "XadillaX <i@2333.moe>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eggjs/egg-toshihiko/issues"
+  },
+  "homepage": "https://github.com/eggjs/egg-toshihiko#readme",
+  "eggPlugin": {
+    "name": "toshihiko",
+    "optionalDependencies": [
+      "sequelize"
+    ]
+  },
+  "devDependencies": {
+    "egg": "^2.0.0-beta.2",
+    "egg-bin": "^4.3.5",
+    "egg-mock": "^3.13.1",
+    "egg-sequelize": "^3.1.0"
+  },
+  "dependencies": {
+    "ettr": "^1.0.2",
+    "lodash.pickby": "^4.6.0",
+    "mysql2": "^1.5.0",
+    "toshihiko": "^1.0.0-alpha.7"
+  }
+}
