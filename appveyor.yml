@@ -1,3 +1,6 @@
+services:
+  - mysql
+
 environment:
   matrix:
     - nodejs_version: '8'

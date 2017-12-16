@@ -1,5 +1,7 @@
 'use strict';
 
+const password = exports.password = require('os').platform() === 'win32' ? 'Password12!' : '';
+
 exports.toshihiko = {
   connections: {
     default: {
@@ -8,10 +10,11 @@ exports.toshihiko = {
       host: 'localhost',
       port: 3306,
       username: 'root',
-      password: '',
+      password,
     },
     noBase: {
       database: 'mysql',
+      password,
     },
   },
 };
