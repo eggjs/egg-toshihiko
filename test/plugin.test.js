@@ -84,6 +84,12 @@ describe('test/plugin.test.js', () => {
       assert(M.toshihiko === app.toshihiko.get());
       assert(M instanceof ToshihikoModel);
     });
+
+    it('should not get a connection', () => {
+      assert.throws(() => {
+        app.toshi.get('temp');
+      }, 'Toshihiko config temp is not found.');
+    });
   });
 
   describe('Test model', () => {
