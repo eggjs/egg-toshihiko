@@ -5,7 +5,8 @@ Yet another ORM called [Toshihiko](https://github.com/XadillaX/Toshihiko) plugin
 > **NOTE:** This plugin just for integrate Toshihiko into Egg.js, more documentation please visit http://github.com/XadillaX/Toshihiko.
 
 [![NPM version][npm-image]][npm-url]
-[![build status][travis-image]][travis-url]
+[![Build Status][travis-image]][travis-url]
+[![Build status][appveyor-image]][appveyor-url]
 [![Test coverage][codecov-image]][codecov-url]
 [![David deps][david-image]][david-url]
 [![Known Vulnerabilities][snyk-image]][snyk-url]
@@ -15,6 +16,8 @@ Yet another ORM called [Toshihiko](https://github.com/XadillaX/Toshihiko) plugin
 [npm-url]: https://npmjs.org/package/egg-toshihiko
 [travis-image]: https://img.shields.io/travis/eggjs/egg-toshihiko.svg?style=flat-square
 [travis-url]: https://travis-ci.org/eggjs/egg-toshihiko
+[appveyor-image]: https://ci.appveyor.com/api/projects/status/k608vgb3rulk146q/branch/master?svg=true
+[appveyor-url]: https://ci.appveyor.com/project/XadillaX/egg-toshihiko/branch/master
 [codecov-image]: https://codecov.io/gh/eggjs/egg-toshihiko/branch/master/graph/badge.svg
 [codecov-url]: https://codecov.io/gh/eggjs/egg-toshihiko
 [david-image]: https://img.shields.io/david/eggjs/egg-toshihiko.svg?style=flat-square
