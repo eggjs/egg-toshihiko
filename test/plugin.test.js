@@ -8,6 +8,8 @@ const ToshihikoModel = require('toshihiko/lib/model');
 const ToshihikoYukari = require('toshihiko/lib/yukari');
 
 describe('test/plugin.test.js', () => {
+  const password = require('./fixtures/apps/model-app/config/config').password;
+
   let app;
   before(() => {
     app = mm.app({
@@ -50,7 +52,7 @@ describe('test/plugin.test.js', () => {
         host: 'localhost',
         port: 3306,
         username: 'root',
-        password: '',
+        password,
         database: 'egg-toshihiko',
       });
 
@@ -61,7 +63,7 @@ describe('test/plugin.test.js', () => {
         host: 'localhost',
         port: 3306,
         username: 'root',
-        password: '',
+        password,
         database: 'mysql',
       });
     });
@@ -74,7 +76,7 @@ describe('test/plugin.test.js', () => {
         host: 'localhost',
         port: 3306,
         username: 'root',
-        password: '',
+        password,
         database: 'egg-toshihiko',
       });
     });
