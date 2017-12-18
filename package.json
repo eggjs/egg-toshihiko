@@ -1,6 +1,6 @@
 {
   "name": "egg-toshihiko",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Yet another ORM called Toshihiko plugin for egg.",
   "main": "app.js",
   "files": [
@@ -54,6 +54,6 @@
   },
   "dependencies": {
     "lodash.pickby": "^4.6.0",
-    "toshihiko": "^1.0.0-alpha.7"
+    "toshihiko": "^1.0.0-alpha.8"
   }
 }
